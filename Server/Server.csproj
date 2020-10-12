@@ -6,14 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Peachpie.AspNetCore.Web" Version="$(PeachpieVersion)" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\MantisBTPeachPie\MantisBTPeachPie.msbuildproj">
       <PrivateAssets>None</PrivateAssets>
     </ProjectReference>
